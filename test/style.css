@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.links li {
+    display: inline-block;
+    list-style: none;
+}
+
+.links li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.links .btn {
+    background-color: lightseagreen;
+    font-weight: bold;
+    color: #fff;
+    font-family: inherit;
+    border-radius: 5px;
+}
+
+#home {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/6936380/pexels-photo-6936380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home .texts {
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    padding: 250px 0;
+    text-align: center;
+}
+
+#home .texts h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+.texts p {
+    font-size: 14px;
+}
+
+#home .texts button {
+    margin-top: 20px;
+    background-color: lightseagreen;
+    font-weight: bold;
+    color: #fff;
+    font-family: inherit;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-page {
+    width: 35%;
+    margin: auto;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.login-page input, .login-page select {
+    width: 100%;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+form button {   
+    background-color: lightseagreen;
+    font-weight: bold;
+    color: #fff;
+    font-family: inherit;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;   
+}
+
